@@ -95,7 +95,7 @@ cd $SRC
 ```
 
 ## Downloading the Software
-Here we will download the Kernel and busybox sources. I have also included a CC logo as this text and project will be CC-BY licensed.
+Here we will download the Kernel and busybox sources. 
 
 **Download all of the required packages into /barebones/source**
 ```
