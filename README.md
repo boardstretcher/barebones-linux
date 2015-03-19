@@ -1,5 +1,4 @@
 # barebones-linux
-barebones linux build
 Table of Contents
 =======
 * Introduction
@@ -20,9 +19,9 @@ Table of Contents
 
 TL;DR
 =======
-If you don't feel like reading through the guide to understand what is going on. You can see the complete process here: https://github.com/boardstretcher/barebones-linux/blob/master/auto-build.sh
+If you don't feel like reading through the guide to understand what is going on, you can see the commands for the complete process here: https://github.com/boardstretcher/barebones-linux/blob/master/build-commands.sh
 
-It is NOT a script. You will have to copy and paste and modify the commands to suit your environment. If you don't feel comfortable using that code and debugging it, then please read on.
+That is NOT a script. You will have to copy and paste and modify the commands to suit your environment. If you don't feel comfortable using that code and debugging it, then please read on.
 
 Summary
 =======
