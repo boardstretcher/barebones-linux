@@ -153,6 +153,7 @@ cp -a _install/* $BLD/
 **Remove linuxrc and create an /init symlink**
 ```
 rm $BLD/linuxrc
+cd $BLD
 ln -s bin/busybox init
 ```
 
