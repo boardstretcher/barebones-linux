@@ -243,7 +243,7 @@ We have to partition and format a flash drive, put all of these files onto it, a
 ## substitute sdb with whatever yours is configured as.
 
 #remove all partitions, make new partition, bootable, write
-cfdisk /dev/sdb 
+cfdisk /dev/sdb
 mkfs.ext2 /dev/sdb1
 ```
 
@@ -274,7 +274,7 @@ initrd /boot/initrd.img
 }
 menuentry "Pre-mount break boot" {
 set root=(hd0,msdos1)
-linux /boot/vmlinuz debug break=y
+linux /boot/vmlinuz debug break=y name=sz
 initrd /boot/initrd.img
 }
 EOF
