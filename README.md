@@ -1,4 +1,7 @@
 # barebones-linux
+
+Copyright: CC-BY 2.0 - Steve Zornes 2015
+
 Table of Contents
 =======
 * Introduction
@@ -192,7 +195,7 @@ tmpfs /dev/shm tmpfs defaults 0 0
 EOF
 ```
 
-This is the file that is polled for the machine's hostname.
+This is the file that is polled for the machine's hostname. SZ.
 
 **Create /etc/hostname**
 ```
