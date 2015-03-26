@@ -78,7 +78,7 @@ mount  /dev/sdb1 /barebones/flashdrive
 rsync -varh /barebones/build/ /barebones/flashdrive/
 grub-install --root-directory=/barebones/flashdrive /dev/sdb
 
-cat << EOF > $BLD/boot/grub/grub.cfg
+cat << EOF > /barebones/flashdrive/boot/grub/grub.cfg
 menuentry "Standard boot" {
     set root=(hd0,msdos1)
         linux /boot/vmlinuz
