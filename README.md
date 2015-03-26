@@ -261,7 +261,7 @@ grub-install --root-directory=/barebones/flashdrive /dev/sdb
 
 **Configure grub further**
 ```
-cat << EOF > $BLD/boot/grub/grub.cfg
+cat << EOF > /barebones/flashdrive/boot/grub/grub.cfg
 menuentry "Standard boot" {
 set root=(hd0,msdos1)
 linux /boot/vmlinuz
