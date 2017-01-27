@@ -1,6 +1,10 @@
+# Automated barebones linux 
+
+https://buildroot.org/
+
 # barebones-linux
 
-Copyright: CC-BY 2.0 - Steve Zornes 2015
+Copyright: CC-BY 2.0 Boardstretcher
 
 Table of Contents
 =======
