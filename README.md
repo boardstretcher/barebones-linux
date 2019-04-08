@@ -70,8 +70,7 @@ All of these commands will be issued as root, if you don't want to do this, you 
 ## Some Microlinux Examples
 
 These are similar examples of what we are about to build. Ours will be much smaller though, and have much less flotsam in the build.
-
-* ttylinux - http://ttylinux.net/
+* ttylinux - https://www.minimalinux.org/ttylinux/
 * tomsrtbt - http://www.toms.net/rb/
 * tinycore - http://tinycorelinux.net/
 * slitaz - http://www.slitaz.org/en/
